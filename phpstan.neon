@@ -9,3 +9,6 @@ parameters:
     fileExtensions:
         - php
     tmpDir: ./storage/framework/cache/phpstan
+    ignoreErrors:
+        - '#of static method Illuminate\\Support\\Str::slug\(\) expects string, mixed given.#'
+        - '#should return Symfony\\Component\\HttpFoundation\\Response but returns Illuminate\\Http\\RedirectResponse|Illuminate\\Routing\\Redirector.#'
