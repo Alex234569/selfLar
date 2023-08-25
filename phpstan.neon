@@ -1,0 +1,11 @@
+parameters:
+    level: 9
+    paths:
+        - app
+        - bootstrap
+        - config
+        - routes
+        - tests
+    fileExtensions:
+        - php
+    tmpDir: ./storage/framework/cache/phpstan
