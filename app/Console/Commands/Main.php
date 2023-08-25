@@ -23,10 +23,9 @@ class Main extends Command
 
     /**
      * Execute the console command.
-     *
-     * @return void
      */
-    #[NoReturn] public function handle(): void
+    #[NoReturn]
+    public function handle(): void
     {
     }
 }
