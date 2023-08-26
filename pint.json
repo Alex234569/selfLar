@@ -5,6 +5,9 @@
     "single_line_throw": false,
     "phpdoc_align": true,
     "no_superfluous_phpdoc_tags": false,
+    "increment_style": {
+      "style": "pre"
+    },
     "cast_spaces": {
       "space": "none"
     },
@@ -31,6 +34,14 @@
     "blank_line_before_statement": {
       "statements": [
         "return"
+      ]
+    },
+    "phpdoc_separation": {
+      "groups": [
+        ["deprecated", "link", "see", "since"],
+        ["author", "copyright", "license"],
+        ["category", "package", "subpackage"],
+        ["property", "property-read", "property-write"]
       ]
     }
   }
