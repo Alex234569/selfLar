@@ -4,13 +4,14 @@ declare(strict_types=1);
 
 namespace App\Storages;
 
+use App\Interfaces\SingletonInterface;
 use App\Models\User;
 use App\Repositories\UsersRepository;
 use Carbon\CarbonInterval;
 use Illuminate\Contracts\Cache\Repository as CacheContract;
 use Illuminate\Support\Collection;
 
-class UsersStorage
+final class UsersStorage implements SingletonInterface
 {
     private readonly UsersRepository $repository;
 
