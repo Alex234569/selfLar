@@ -36,4 +36,14 @@ final class UsersStorage implements SingletonInterface
             fn () => $this->repository->findAll(),
         );
     }
+
+    /**
+     * Delete cache
+     *
+     * @return void
+     */
+    public function clean(): void
+    {
+        $this->cache->forget('UsersStorage::all');
+    }
 }
