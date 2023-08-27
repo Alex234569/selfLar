@@ -12,3 +12,4 @@ parameters:
     ignoreErrors:
         - '#of static method Illuminate\\Support\\Str::slug\(\) expects string, mixed given.#'
         - '#should return Symfony\\Component\\HttpFoundation\\Response but returns Illuminate\\Http\\RedirectResponse|Illuminate\\Routing\\Redirector.#'
+        - '#but returns Illuminate\\Support\\Collection<int, Illuminate\\Database\\Eloquent\\Model>.#' #need for Storages, where we return not base model
