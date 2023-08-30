@@ -5,6 +5,7 @@
     "single_line_throw": false,
     "phpdoc_align": true,
     "no_superfluous_phpdoc_tags": false,
+    "not_operator_with_successor_space": false,
     "increment_style": {
       "style": "pre"
     },

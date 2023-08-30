@@ -15,7 +15,7 @@ class AppServiceProvider extends ServiceProvider
         /** @var array<class-string, class-string[]> $classes */
         $classes = config('classes-interfaces');
 
-        if (! empty($classes[SingletonInterface::class])) {
+        if (!empty($classes[SingletonInterface::class])) {
             foreach ($classes[SingletonInterface::class] as $class) {
                 $this->app->singleton($class);
             }
