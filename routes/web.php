@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/*
+ * We use blade to init the vue.js application
+ */
 Route::get('/', function () {
-    return view('welcome');
+    return view('init');
 });
