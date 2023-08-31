@@ -6,10 +6,6 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
-        "guzzlehttp/guzzle": "^7.2",
-        "laravel/framework": "^10.10",
-        "laravel/sanctum": "^3.2",
-        "laravel/tinker": "^2.8",
         "ext-curl": "*",
         "ext-ftp": "*",
         "ext-gd": "*",
@@ -21,7 +17,12 @@
         "ext-simplexml": "*",
         "ext-soap": "*",
         "ext-zend-opcache": "*",
-        "ext-zip": "*"
+        "ext-zip": "*",
+        "guzzlehttp/guzzle": "^7.2",
+        "laravel/framework": "^10.10",
+        "laravel/sanctum": "^3.2",
+        "laravel/tinker": "^2.8",
+        "laravel/ui": "^4.2"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
